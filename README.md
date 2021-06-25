@@ -16,14 +16,21 @@ Version de php a avoir
 Telecharger et installer un serveur de base MySQL 
 --> Wamp, Laragon, Xamp ... avec la version de php 7
 
-Executer le projet 
-cmd --> php artisan serve
+Commande pour exécuter le projet  
 
-Creation d'un nouveau controller
-cmd --> php artisan make:controller Nom_Controller
+```
+php artisan serve
+```
 
-Creation d'une table
-cmd --> php artisan make:migration nomMigration --create=NomDeLaTable --> "facultatif"
+Commande pour la Creation d'un nouveau controller
+```
+php artisan make:controller Nom_Controller
+```
+
+Commande pour la Creation d'une table
+```
+php artisan make:migration nomMigration --create=NomDeLaTable --> "facultatif"
+```
 
 plus de commande
 https://blog.enguehard.info/laravel-quelques-commandes-artisan/
